@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: black;
+  font: italic 5em sans-serif;
+  letter-spacing: -10px;
+  font-weight: 900;
+  margin: 0 20px;
+  padding-top: 30px;
+  position: relative;
+  text-transform: uppercase;
+  animation: dvd 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+p {
+  color: white;
+  font: 2em sans-serif;
+  font-weight: 900;
+  margin: 0 45px;
+  position: relative;
+  text-transform: uppercase;
+  animation: dvd 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes dvd {
+  0% {
+    color: red;
+    left: 400px;
+    top: 0px;
+  }
+
+  25% {
+    color: orange;
+    left: 1150px;
+    top: 100px;
+  }
+
+  50% {
+    color: yellow;
+    right: 1150px;
+    top: 300px;
+  }
+
+  75% {
+    color: green;
+    left: 0px;
+    top: 407px;
+  }
+
+  100% {
+    color: blue;
+    left: 400px;
+    top: 0px;
+  }
+}
